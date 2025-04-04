@@ -1,12 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
-    background: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-}
+
 .player-container {
     display: flex;
     align-items: center;
@@ -76,16 +68,26 @@ body {
     height: auto;
     border-radius: 20px;
     margin-bottom: 10px;
+    align-items: center;
+    margin: auto;
+    display: block;
 }
 
+.contador-container {
+    text-align: center;
 
+    border-radius: 12px;
+    
+}
 
 #contador {
     font-size: 20px;
     font-weight: bold;
-    color: #000000;
+    color: #333;
 }
-
+h2{
+    text-align: center;
+}
 
 /* Responsividade */
 @media (max-width: 600px) {
