@@ -1,4 +1,12 @@
-
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
 .player-container {
     display: flex;
     align-items: center;
@@ -69,6 +77,15 @@
     border-radius: 20px;
     margin-bottom: 10px;
 }
+
+
+
+#contador {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
 
 /* Responsividade */
 @media (max-width: 600px) {
