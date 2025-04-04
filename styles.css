@@ -1,3 +1,4 @@
+
 .player-container {
     display: flex;
     align-items: center;
@@ -11,7 +12,6 @@
 .cover {
     width: 40px; /* era 50px */
     height: 40px;
-    background: white;
     margin-right: 10px; /* menos espaço */
     border-radius: 5px;
     overflow: hidden;
@@ -63,10 +63,10 @@
     cursor: pointer;
 }
 
-.image-container img {
-    width: 100%;
+ img {
+    width: 60%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 20px;
     margin-bottom: 10px;
 }
 
