@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="container">
+       
+        <div class="player-container">
+            <div class="cover">
+                <img id="displayedImage" src="./Coldplay - Yellow.jpeg" width="100%" alt="Imagem Exibida">
+
+            </div>
+            <div class="controls">
+                <button onclick="rewind()">⏪</button>
+                <button onclick="togglePlay()">▶️</button>
+                <button onclick="forward()">⏩</button>
+                <input class="volume" type="range" min="0" max="1" step="0.1" onchange="setVolume(this.value)">
+            </div>
+        </div>
+        <audio id="audio" >
+            <img id="displayedImage" src="./Coldplay - Yellow.jpeg" alt="Imagem Exibida">
+            <source src="Coldplay - Yellow (Official Video).mp3" type="audio/mpeg">
+        </audio>
+        <div class="image-container">
+        </div>
+        <h2>Estar ao seu lado é aconchego</h2>
+        <img src="./WhatsApp Image 2025-03-29 at 23.43.19 (1).jpeg" width="80%">
+        <br>
+        <h2>Ei, gostaria de falar como o "nos" e especial!<br> todo tempo que nos passamos juntas <br> Te amo há: </h2>
+        <div class="contador-container">
+            <p id="contador">Carregando...</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
